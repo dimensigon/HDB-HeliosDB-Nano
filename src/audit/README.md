@@ -1,6 +1,6 @@
 # Audit Module
 
-Comprehensive audit logging system for HeliosDB Lite.
+Comprehensive audit logging system for HeliosDB Nano.
 
 ## Features
 
@@ -25,7 +25,7 @@ audit/
 ## Quick Start
 
 ```rust
-use heliosdb_lite::audit::{AuditLogger, AuditConfig};
+use heliosdb_nano::audit::{AuditLogger, AuditConfig};
 use std::sync::Arc;
 
 // Create storage and logger
